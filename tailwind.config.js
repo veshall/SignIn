@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -10,6 +11,7 @@ export default {
         input: "#E5E5E5",
         background: "#224957",
         button: "#20DF7F",
+        background: "#093545",
       },
       borderRadius: {
         morelg: "10px",
